@@ -37,11 +37,26 @@ body {
 .reveal h6 {
   margin: 0 0 20px 0;
   color: black;
-  font-family: "News Cycle", Impact, sans-serif;
-  line-height: 0.9em;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+  line-height: 1.2em;
   letter-spacing: 0.02em;
   text-transform: none;
-  text-shadow: none; }
+  text-shadow: none; 
+  text-align:left;
+ }
+ 
+p { 
+    text-align:left;
+}
+
+.centre { 
+    text-align:center!important;
+}
+
+.no_border { 
+    border:none!important;
+}
 
 .reveal h1 {
   text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2); }
